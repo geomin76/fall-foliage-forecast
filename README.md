@@ -8,7 +8,9 @@ The goal of this project is to use historical images of a forest, and try to pre
     - The interval can be daily, weekly, etc
     - Low-res is free!
 <br/>
+
 - <u>Development idea</u>
+
     - Use an S3 database to store images
     - Using images of "peak", pre and post fall activity images, create a model that determines what "stage" the fall foliage is at.
         - The key is to determine peak foliage, then calculate a range to determine the pre and post
