@@ -30,3 +30,35 @@ The goal of this project is to use historical images of a forest, and try to pre
     - infrastructure: aws lambda, store in s3, then data in dynamodb
 - <s>Write openCV code to determine % of fall colors in an image and allow a range of fall colors to be determined</s>
 - After data collection and using color percentage code, begin to create a ML model to give a time estimate on when peak fall foliage would be based on satellite photo
+
+
+### Fall Foliage locations to map
+- Rangeley Lakes Region, Maine
+- Letchworth State Park, New York
+- Kancamagus Scenic Highway, New Hampshire
+- Big South Fork National Recreation Area, Kentucky
+- Lake Geneva Area, Wisconsin
+- Shenandoah National Park, Virginia
+- Great Smoky Mountain National Park, Tennessee
+- Mount Cheaha, Alabama
+- Fort Ransom State Park, North Dakota
+- Estes Park, Colorado
+- Ozark National Forest, Arkansas
+- Olympic National Park, Washington
+- Million Dollar Highway, Colorado
+- Great Mountain Highway, Vermont
+- Neuschwanstein Castle, Germany
+- Tuscany, Italy
+- Denali National Park and Preserve, Alaska
+- Amsterdam, The Netherlands
+- Central Park, New York
+- Niagara Falls, New York
+- Santa Fe, New Mexico
+- Highlands, Scotland
+- Quebec, Canada
+- Lapland, Finland
+- Lake Louise, Canada
+- Kyoto, Japan
+- Montenegro
+- Asheville, North Carolina
+- Lake Superior, Michigan
