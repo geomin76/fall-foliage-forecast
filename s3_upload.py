@@ -1,6 +1,10 @@
 import boto3
 from botocore.exceptions import ClientError
 
+"""
+For now, we may let SkyWatch to store the data. TBD
+"""
+
 client = boto3.client(
     's3',
     aws_access_key_id="ACCESS_KEY",
