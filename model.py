@@ -3,7 +3,7 @@ from datetime import datetime
 
 class DataEntry(BaseModel):
     blob_url: str
-    timestamp: datetime
+    timestamp: str
     color_percentage: float
     location_id: str
 
