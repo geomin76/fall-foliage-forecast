@@ -27,12 +27,17 @@ def get_data(key: str):
     )
     items: [DataEntry] = []
     for item in response['Items']:
-        temp_item = DataEntry(
-            blob_url = item['blob_url'], 
-            location_id = item['location_id'],
-            timestamp = item['timestamp'],
-            color_percentage = float(item['color_percentage'])
+        items.append(
+            DataEntry(
+                blob_url = item['blob_url'], 
+                location_id = item['location_id'],
+                timestamp = item['timestamp'],
+                color_percentage = float(item['color_percentage'])
+            )
         )
-        items.append(temp_item)
-
-    return items
+        
+    if len(items) > 0:
+        sorted(items, key=lambda item: item.timestamp)
+        return items
+    else:
+        return items

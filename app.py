@@ -3,7 +3,7 @@ from skywatch_call import get_pipelines, get_most_recent_result_from_pipeline
 import requests
 from model import SkyWatchData, DataEntry
 import os
-from dynamodb import insert_data
+from dynamodb import insert_data, get_data
 
 def main():
     # cron job to pull data from SkyWatch
@@ -13,7 +13,11 @@ def main():
         if not result:
             continue
 
-        # TODO: if timestamp already exists for this location_id in dynamo, do not add
+        # if timestamp for a certain pipeline_id already exists, no need for duplicates and ignore
+        dynamodb_data = get_data(pipeline_id)
+        if len(dynamodb_data) > 0 and dynamodb_data[-1].timestamp == result.capture_time:
+            print("Data for pipeline {} already exists for timestamp: {}".format(pipeline_id, result.capture_time))
+            continue
 
         img_data = requests.get(result.visual_url).content
         with open('temp.png', 'wb') as handler:
