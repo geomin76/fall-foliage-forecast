@@ -9,6 +9,7 @@ def main():
     # cron job to pull data from SkyWatch
     pipeline_ids = get_pipelines()
     for pipeline_id in pipeline_ids:
+        # get most recent data from SkyWatch for a pipeline
         result: SkyWatchData = get_most_recent_result_from_pipeline(pipeline_id)
         if not result:
             continue
@@ -19,6 +20,7 @@ def main():
             print("Data for pipeline {} already exists for timestamp: {}".format(pipeline_id, result.capture_time))
             continue
 
+        # retrieving image from s3 and saving locally
         img_data = requests.get(result.visual_url).content
         with open('temp.png', 'wb') as handler:
             handler.write(img_data)
@@ -26,6 +28,7 @@ def main():
         # run color_analysis on image
         percentage = color_analysis("./temp.png")
 
+        # remove image, and if image doesn't exist, pass
         try: os.remove("./temp.png")
         except OSError: pass
 
