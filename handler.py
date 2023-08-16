@@ -1,14 +1,23 @@
-from color_analysis import color_analysis
-from skywatch_call import get_pipelines, get_most_recent_result_from_pipeline
+import datetime
+import logging
+from service.color_analysis import color_analysis
+from service.skywatch_call import get_pipelines, get_most_recent_result_from_pipeline
 import requests
-from model import SkyWatchData, DataEntry
+from service.model import SkyWatchData, DataEntry
 import os
-from dynamodb import insert_data, get_data
+from service.dynamodb import insert_data, get_data
 
-def main():
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
+def run(event, context):
+    current_time = datetime.datetime.now().time()
+    name = context.function_name
+    logger.info("Your cron function " + name + " ran at " + str(current_time))
     # cron job to pull data from SkyWatch
     pipeline_ids = get_pipelines()
     for pipeline_id in pipeline_ids:
+        logger.info("Running fall foliage check for pipeline " + pipeline_id)
         # get most recent data from SkyWatch for a pipeline
         result: SkyWatchData = get_most_recent_result_from_pipeline(pipeline_id)
         if not result:
@@ -17,7 +26,7 @@ def main():
         # if timestamp for a certain pipeline_id already exists, no need for duplicates and ignore
         dynamodb_data = get_data(pipeline_id)
         if len(dynamodb_data) > 0 and dynamodb_data[-1].timestamp == result.capture_time:
-            print("Data for pipeline {} already exists for timestamp: {}".format(pipeline_id, result.capture_time))
+            logger.info("Data for pipeline {} already exists for timestamp: {}".format(pipeline_id, result.capture_time))
             continue
 
         # retrieving image from s3 and saving locally
@@ -39,6 +48,5 @@ def main():
             color_percentage = percentage,
             location_id = pipeline_id
         ))
-
-if __name__ == "__main__":
-    main()
+        logger.info("Inserted data for pipeline " + pipeline_id + " and timestamp " + result.capture_time)
+    

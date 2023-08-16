@@ -6,7 +6,7 @@ charset-normalizer==3.2.0
 idna==3.4
 jmespath==1.0.1
 numpy==1.25.1
-opencv-python==4.8.0.74
+opencv-python==4.8.0.76
 pydantic==2.1.1
 pydantic_core==2.4.0
 python-dateutil==2.8.2
