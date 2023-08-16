@@ -1,14 +1,14 @@
 import boto3
 import os
 from dotenv import load_dotenv
-from model import DataEntry
+from service.model import DataEntry
 from boto3.dynamodb.conditions import Key
 load_dotenv()
 
 dynamodb = boto3.client(
     'dynamodb', 
-    aws_access_key_id = os.environ.get('AWS_ACCESS_KEY_ID'),
-    aws_secret_access_key = os.environ.get('AWS_SECRET_ACCESS_KEY'),
+    aws_access_key_id = os.environ.get('AWS_ACCESS_KEY_ID_KEY'),
+    aws_secret_access_key = os.environ.get('AWS_SECRET_ACCESS_PASSWORD_KEY'),
 )
 
 def insert_data(item: DataEntry) -> bool:

@@ -1,7 +1,7 @@
 import requests
 import os
 from dotenv import load_dotenv
-from model import SkyWatchData
+from service.model import SkyWatchData
 
 load_dotenv()
 
