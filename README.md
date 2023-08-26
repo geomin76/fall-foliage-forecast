@@ -5,8 +5,6 @@ The goal of this project is to use historical images of a forest, and try to pre
 ### Notes
 - SkyWatch is able to create interval pipelines of locations on their [console](https://console.earthcache.com/)
     - Using the [API](https://api-docs.earthcache.com/#tag/intervalResults/operation/intervalResultsList), we are able to retrieve interval results and get image URLs
-    - The interval can be daily, weekly, etc
-    - Low-res is free!
 <br/>
 
 - <u>Development idea</u>
@@ -23,7 +21,6 @@ The goal of this project is to use historical images of a forest, and try to pre
         - We will need to keep track of timestamps as well, perhaps a SQL db to keep track of URL and historical data
         - With timing, we can produce a model to give an estimate of when peak will be
             - historical data model for peak estimates
-    - Perhaps beginning building the openCV code with this [data](https://earthobservatory.nasa.gov/collection/1692/fall-colors)
 
 ### TODO
 - <s>Write cronjob function to record and pull data from SkyWatch, and store to S3 database (or alternative) w/ historical time + url data entry + color percentage in DB
