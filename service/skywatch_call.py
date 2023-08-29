@@ -26,6 +26,10 @@ def get_most_recent_result_from_pipeline(pipeline_id: str):
     results = get_results_from_pipeline(pipeline_id)
     return results[-1] if results else None
 
+def get_all_results_from_pipeline(pipeline_id: str):
+    results = get_results_from_pipeline(pipeline_id)
+    return results if results else None
+
 def get_pipelines():
     response = requests.get("https://api.skywatch.co/earthcache/pipelines", headers=headers)
     results = response.json()['data']
