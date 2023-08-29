@@ -23,8 +23,6 @@ The goal of this project is to use historical images of a forest, and try to pre
             - historical data model for peak estimates
 
 ### TODO
-- <s>Write cronjob function to record and pull data from SkyWatch, and store to S3 database (or alternative) w/ historical time + url data entry + color percentage in DB
-    - infrastructure: aws lambda, store in s3, then data in dynamodb</s>
 - <s>Write openCV code to determine % of fall colors in an image and allow a range of fall colors to be determined</s>
 - After data collection and using color percentage code, begin to create a ML model to give a time estimate on when peak fall foliage would be based on satellite photo
 

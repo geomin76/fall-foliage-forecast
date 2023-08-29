@@ -3,6 +3,7 @@ env
 .DS_Store
 __pycache__/
 .env
-.serverless
 *.pyc
 *.pyo
+local.settings.json
+.vscode
