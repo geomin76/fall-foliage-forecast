@@ -20,13 +20,15 @@ def insert_data(item: DataEntry) -> bool:
     })
     return True
 
-def get_data(key: str):
+def get_data(key: str, enable_data = False):
     table = boto3.resource('dynamodb').Table('fall-foliage')
     response = table.query(
         KeyConditionExpression=Key('location_id').eq(key)
     )
     items: [DataEntry] = []
     for item in response['Items']:
+        if enable_data:
+            print("Photo taken on {} with percentage {}".format(item['timestamp'],float(item['color_percentage'])))
         items.append(
             DataEntry(
                 blob_url = item['blob_url'], 
