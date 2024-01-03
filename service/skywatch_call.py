@@ -34,3 +34,11 @@ def get_pipelines():
     response = requests.get("https://api.skywatch.co/earthcache/pipelines", headers=headers)
     results = response.json()['data']
     return [result['id'] for result in results]
+
+def get_pipelines_data():
+    response = requests.get("https://api.skywatch.co/earthcache/pipelines", headers=headers)
+    results = response.json()['data']
+    dictionary = {}
+    for result in results:
+        dictionary[result['id']] = result['name']
+    return dictionary
