@@ -40,5 +40,5 @@ def get_pipelines_data():
     results = response.json()['data']
     dictionary = {}
     for result in results:
-        dictionary[result['id']] = result['name']
+        dictionary[result["id"]] = result
     return dictionary

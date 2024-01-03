@@ -1,0 +1,1558 @@
+{
+    "17df945a-4544-11ee-aa4e-023f4d8d791a": {
+        "id": "17df945a-4544-11ee-aa4e-023f4d8d791a",
+        "org_id": "001Am000006ZGE5IAO",
+        "name": "rangeley_maine",
+        "start_date": "2023-08-07",
+        "end_date": "2023-12-31",
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -71.09155013478613,
+                        45.0769522838294
+                    ],
+                    [
+                        -70.36941982108796,
+                        45.0769522838294
+                    ],
+                    [
+                        -70.36941982108796,
+                        44.715628001043314
+                    ],
+                    [
+                        -71.09155013478613,
+                        44.715628001043314
+                    ],
+                    [
+                        -71.09155013478613,
+                        45.0769522838294
+                    ]
+                ]
+            ]
+        },
+        "area_km2": 2290.4674065482254,
+        "cloud_cover_percentage": 100,
+        "min_aoi_coverage_percentage": 70,
+        "interval": "5d",
+        "resolution_low": 30,
+        "resolution_high": 8.1,
+        "output": {
+            "id": "c31c1bea-a4be-11e7-8650-3ae5c7149ea7",
+            "format": "geotiff",
+            "mosaic": {
+                "type": "stitched",
+                "range": "1d"
+            }
+        },
+        "status": "complete",
+        "tags": [],
+        "result_delivery": {
+            "max_latency": "1d",
+            "priorities": [
+                "first_available"
+            ]
+        },
+        "created_at": "2023-08-28T01:42:05.502733Z",
+        "updated_at": "2023-08-28T01:42:05Z",
+        "max_cost": 0,
+        "status_reason": {
+            "reason": "some_results",
+            "description": "Pipeline completed processing with 9 intervals returning results, 21 intervals returning no results. 21 intervals with no results contain alternate search results, which can be ordered"
+        },
+        "user_information": {}
+    },
+    "586cfc56-4544-11ee-aa4e-023f4d8d791a": {
+        "id": "586cfc56-4544-11ee-aa4e-023f4d8d791a",
+        "org_id": "001Am000006ZGE5IAO",
+        "name": "letchworth_ny",
+        "start_date": "2023-08-07",
+        "end_date": "2023-12-31",
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -78.0361106148185,
+                        42.57074234827431
+                    ],
+                    [
+                        -77.98665346050424,
+                        42.584726965208944
+                    ],
+                    [
+                        -77.88084931287013,
+                        42.73910847173437
+                    ],
+                    [
+                        -77.8975160114997,
+                        42.7455686008457
+                    ],
+                    [
+                        -77.93223830031133,
+                        42.72856681601158
+                    ],
+                    [
+                        -77.97621986613926,
+                        42.682298379024644
+                    ],
+                    [
+                        -78.02853478128216,
+                        42.61862297594175
+                    ],
+                    [
+                        -78.0683496724528,
+                        42.58318171115769
+                    ],
+                    [
+                        -78.05584964848053,
+                        42.57159077129796
+                    ],
+                    [
+                        -78.0361106148185,
+                        42.57074234827431
+                    ]
+                ]
+            ]
+        },
+        "area_km2": 89.7703568792657,
+        "cloud_cover_percentage": 100,
+        "min_aoi_coverage_percentage": 70,
+        "interval": "5d",
+        "resolution_low": 30,
+        "resolution_high": 8.1,
+        "output": {
+            "id": "c31c1bea-a4be-11e7-8650-3ae5c7149ea7",
+            "format": "geotiff",
+            "mosaic": {
+                "type": "stitched",
+                "range": "1d"
+            }
+        },
+        "status": "complete",
+        "tags": [],
+        "result_delivery": {
+            "max_latency": "1d",
+            "priorities": [
+                "first_available"
+            ]
+        },
+        "created_at": "2023-08-28T01:43:53.845449Z",
+        "updated_at": "2023-08-28T01:43:54Z",
+        "max_cost": 0,
+        "status_reason": {
+            "reason": "some_results",
+            "description": "Pipeline completed processing with 4 intervals returning results, 26 intervals returning no results. 22 intervals with no results contain alternate search results, which can be ordered"
+        },
+        "user_information": {}
+    },
+    "99770fc0-4544-11ee-aa4e-023f4d8d791a": {
+        "id": "99770fc0-4544-11ee-aa4e-023f4d8d791a",
+        "org_id": "001Am000006ZGE5IAO",
+        "name": "kancamagus_nh",
+        "start_date": "2023-08-07",
+        "end_date": "2023-12-31",
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -71.67546764478419,
+                        44.12687562514745
+                    ],
+                    [
+                        -71.12506588829783,
+                        44.12687562514745
+                    ],
+                    [
+                        -71.12506588829783,
+                        43.911974686283855
+                    ],
+                    [
+                        -71.67546764478419,
+                        43.911974686283855
+                    ],
+                    [
+                        -71.67546764478419,
+                        44.12687562514745
+                    ]
+                ]
+            ]
+        },
+        "area_km2": 1054.0279935017884,
+        "cloud_cover_percentage": 100,
+        "min_aoi_coverage_percentage": 70,
+        "interval": "5d",
+        "resolution_low": 30,
+        "resolution_high": 8.1,
+        "output": {
+            "id": "c31c1bea-a4be-11e7-8650-3ae5c7149ea7",
+            "format": "geotiff",
+            "mosaic": {
+                "type": "stitched",
+                "range": "1d"
+            }
+        },
+        "status": "active",
+        "tags": [],
+        "result_delivery": {
+            "max_latency": "1d",
+            "priorities": [
+                "first_available"
+            ]
+        },
+        "created_at": "2023-08-28T01:45:42.971723Z",
+        "updated_at": "2023-08-28T01:45:43Z",
+        "max_cost": 0,
+        "status_reason": {
+            "reason": "failed",
+            "description": "Pipeline failed during processing. Contact support@skywatch.com for assistance"
+        },
+        "user_information": {}
+    },
+    "dc111010-4544-11ee-aa4e-023f4d8d791a": {
+        "id": "dc111010-4544-11ee-aa4e-023f4d8d791a",
+        "org_id": "001Am000006ZGE5IAO",
+        "name": "bigsouth_ky",
+        "start_date": "2023-08-07",
+        "end_date": "2023-12-31",
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -84.82832024670869,
+                        36.74808709919719
+                    ],
+                    [
+                        -84.51654866443207,
+                        36.74808709919719
+                    ],
+                    [
+                        -84.51654866443207,
+                        36.45288604216394
+                    ],
+                    [
+                        -84.82832024670869,
+                        36.45288604216394
+                    ],
+                    [
+                        -84.82832024670869,
+                        36.74808709919719
+                    ]
+                ]
+            ]
+        },
+        "area_km2": 915.6098484876536,
+        "cloud_cover_percentage": 100,
+        "min_aoi_coverage_percentage": 70,
+        "interval": "5d",
+        "resolution_low": 30,
+        "resolution_high": 8.1,
+        "output": {
+            "id": "c31c1bea-a4be-11e7-8650-3ae5c7149ea7",
+            "format": "geotiff",
+            "mosaic": {
+                "type": "stitched",
+                "range": "1d"
+            }
+        },
+        "status": "complete",
+        "tags": [],
+        "result_delivery": {
+            "max_latency": "1d",
+            "priorities": [
+                "first_available"
+            ]
+        },
+        "created_at": "2023-08-28T01:47:34.711829Z",
+        "updated_at": "2023-08-28T01:47:34Z",
+        "max_cost": 0,
+        "status_reason": {
+            "reason": "some_results",
+            "description": "Pipeline completed processing with 10 intervals returning results, 20 intervals returning no results. 17 intervals with no results contain alternate search results, which can be ordered"
+        },
+        "user_information": {}
+    },
+    "fd5e12ea-4544-11ee-aa4e-023f4d8d791a": {
+        "id": "fd5e12ea-4544-11ee-aa4e-023f4d8d791a",
+        "org_id": "001Am000006ZGE5IAO",
+        "name": "lakegeneva_wi",
+        "start_date": "2023-08-07",
+        "end_date": "2023-12-31",
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -88.59953521451897,
+                        42.59987341005791
+                    ],
+                    [
+                        -88.40434535452428,
+                        42.59987341005791
+                    ],
+                    [
+                        -88.40434535452428,
+                        42.53033222957501
+                    ],
+                    [
+                        -88.59953521451897,
+                        42.53033222957501
+                    ],
+                    [
+                        -88.59953521451897,
+                        42.59987341005791
+                    ]
+                ]
+            ]
+        },
+        "area_km2": 123.88533291942782,
+        "cloud_cover_percentage": 100,
+        "min_aoi_coverage_percentage": 70,
+        "interval": "5d",
+        "resolution_low": 30,
+        "resolution_high": 8.1,
+        "output": {
+            "id": "c31c1bea-a4be-11e7-8650-3ae5c7149ea7",
+            "format": "geotiff",
+            "mosaic": {
+                "type": "stitched",
+                "range": "1d"
+            }
+        },
+        "status": "active",
+        "tags": [],
+        "result_delivery": {
+            "max_latency": "1d",
+            "priorities": [
+                "first_available"
+            ]
+        },
+        "created_at": "2023-08-28T01:48:30.571219Z",
+        "updated_at": "2023-08-28T01:48:30Z",
+        "max_cost": 0,
+        "status_reason": {
+            "reason": "failed",
+            "description": "1 intervals failed during processing. Contact support@skywatch.com for assistance"
+        },
+        "user_information": {}
+    },
+    "198b2b1a-4545-11ee-aa4e-023f4d8d791a": {
+        "id": "198b2b1a-4545-11ee-aa4e-023f4d8d791a",
+        "org_id": "001Am000006ZGE5IAO",
+        "name": "shenandoah_va",
+        "start_date": "2023-08-07",
+        "end_date": "2023-12-31",
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -78.40916062670004,
+                        38.66324376126326
+                    ],
+                    [
+                        -78.58515191236623,
+                        38.3919692224442
+                    ],
+                    [
+                        -78.41587215878036,
+                        38.308924683590135
+                    ],
+                    [
+                        -78.20632321271108,
+                        38.63645359291621
+                    ],
+                    [
+                        -78.40916062670004,
+                        38.66324376126326
+                    ]
+                ]
+            ]
+        },
+        "area_km2": 643.0395536302514,
+        "cloud_cover_percentage": 100,
+        "min_aoi_coverage_percentage": 70,
+        "interval": "5d",
+        "resolution_low": 30,
+        "resolution_high": 8.1,
+        "output": {
+            "id": "c31c1bea-a4be-11e7-8650-3ae5c7149ea7",
+            "format": "geotiff",
+            "mosaic": {
+                "type": "stitched",
+                "range": "1d"
+            }
+        },
+        "status": "complete",
+        "tags": [],
+        "result_delivery": {
+            "max_latency": "1d",
+            "priorities": [
+                "first_available"
+            ]
+        },
+        "created_at": "2023-08-28T01:49:17.851727Z",
+        "updated_at": "2023-08-28T01:49:18Z",
+        "max_cost": 0,
+        "status_reason": {
+            "reason": "some_results",
+            "description": "Pipeline completed processing with 7 intervals returning results, 23 intervals returning no results. 20 intervals with no results contain alternate search results, which can be ordered"
+        },
+        "user_information": {}
+    },
+    "3a896bba-4545-11ee-aa4e-023f4d8d791a": {
+        "id": "3a896bba-4545-11ee-aa4e-023f4d8d791a",
+        "org_id": "001Am000006ZGE5IAO",
+        "name": "greatsmoky_tn",
+        "start_date": "2023-08-07",
+        "end_date": "2023-12-31",
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -83.1256284727381,
+                        35.783810897359416
+                    ],
+                    [
+                        -83.73471909557324,
+                        35.65149265796332
+                    ],
+                    [
+                        -83.72401885490176,
+                        35.45126276153742
+                    ],
+                    [
+                        -82.99393320293575,
+                        35.53503173775134
+                    ],
+                    [
+                        -83.1256284727381,
+                        35.783810897359416
+                    ]
+                ]
+            ]
+        },
+        "area_km2": 1591.9403995580226,
+        "cloud_cover_percentage": 100,
+        "min_aoi_coverage_percentage": 70,
+        "interval": "5d",
+        "resolution_low": 30,
+        "resolution_high": 8.1,
+        "output": {
+            "id": "c31c1bea-a4be-11e7-8650-3ae5c7149ea7",
+            "format": "geotiff",
+            "mosaic": {
+                "type": "stitched",
+                "range": "1d"
+            }
+        },
+        "status": "complete",
+        "tags": [],
+        "result_delivery": {
+            "max_latency": "1d",
+            "priorities": [
+                "first_available"
+            ]
+        },
+        "created_at": "2023-08-28T01:50:13.204537Z",
+        "updated_at": "2023-08-28T01:50:13Z",
+        "max_cost": 0,
+        "status_reason": {
+            "reason": "some_results",
+            "description": "Pipeline completed processing with 17 intervals returning results, 13 intervals returning no results. 12 intervals with no results contain alternate search results, which can be ordered"
+        },
+        "user_information": {}
+    },
+    "576d807c-4545-11ee-aa4e-023f4d8d791a": {
+        "id": "576d807c-4545-11ee-aa4e-023f4d8d791a",
+        "org_id": "001Am000006ZGE5IAO",
+        "name": "mtcheaha_al",
+        "start_date": "2023-08-07",
+        "end_date": "2023-12-31",
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -85.73423027432167,
+                        33.604350411867216
+                    ],
+                    [
+                        -86.02204225061062,
+                        33.44439402133236
+                    ],
+                    [
+                        -85.88595724008285,
+                        33.336866216368904
+                    ],
+                    [
+                        -85.64976371606272,
+                        33.53657893804787
+                    ],
+                    [
+                        -85.73423027432167,
+                        33.604350411867216
+                    ]
+                ]
+            ]
+        },
+        "area_km2": 442.39866595360576,
+        "cloud_cover_percentage": 100,
+        "min_aoi_coverage_percentage": 70,
+        "interval": "5d",
+        "resolution_low": 30,
+        "resolution_high": 8.1,
+        "output": {
+            "id": "c31c1bea-a4be-11e7-8650-3ae5c7149ea7",
+            "format": "geotiff",
+            "mosaic": {
+                "type": "stitched",
+                "range": "1d"
+            }
+        },
+        "status": "complete",
+        "tags": [],
+        "result_delivery": {
+            "max_latency": "1d",
+            "priorities": [
+                "first_available"
+            ]
+        },
+        "created_at": "2023-08-28T01:51:01.674535Z",
+        "updated_at": "2023-08-28T01:51:01Z",
+        "max_cost": 0,
+        "status_reason": {
+            "reason": "some_results",
+            "description": "Pipeline completed processing with 9 intervals returning results, 21 intervals returning no results. 19 intervals with no results contain alternate search results, which can be ordered"
+        },
+        "user_information": {}
+    },
+    "75758d12-4545-11ee-aa4e-023f4d8d791a": {
+        "id": "75758d12-4545-11ee-aa4e-023f4d8d791a",
+        "org_id": "001Am000006ZGE5IAO",
+        "name": "fortransom_sd",
+        "start_date": "2023-08-07",
+        "end_date": "2023-12-31",
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -97.90819736759374,
+                        46.58550379801588
+                    ],
+                    [
+                        -97.96098779612036,
+                        46.5414851572574
+                    ],
+                    [
+                        -97.92991257932808,
+                        46.523326722919506
+                    ],
+                    [
+                        -97.85521973896579,
+                        46.58833418384293
+                    ],
+                    [
+                        -97.90819736759374,
+                        46.58550379801588
+                    ]
+                ]
+            ]
+        },
+        "area_km2": 23.68658904542316,
+        "cloud_cover_percentage": 100,
+        "min_aoi_coverage_percentage": 70,
+        "interval": "5d",
+        "resolution_low": 30,
+        "resolution_high": 8.1,
+        "output": {
+            "id": "c31c1bea-a4be-11e7-8650-3ae5c7149ea7",
+            "format": "geotiff",
+            "mosaic": {
+                "type": "stitched",
+                "range": "1d"
+            }
+        },
+        "status": "complete",
+        "tags": [],
+        "result_delivery": {
+            "max_latency": "1d",
+            "priorities": [
+                "first_available"
+            ]
+        },
+        "created_at": "2023-08-28T01:51:52.061836Z",
+        "updated_at": "2023-08-28T01:51:52Z",
+        "max_cost": 0,
+        "status_reason": {
+            "reason": "some_results",
+            "description": "Pipeline completed processing with 21 intervals returning results, 9 intervals returning no results. 8 intervals with no results contain alternate search results, which can be ordered"
+        },
+        "user_information": {}
+    },
+    "8b207938-4545-11ee-aa4e-023f4d8d791a": {
+        "id": "8b207938-4545-11ee-aa4e-023f4d8d791a",
+        "org_id": "001Am000006ZGE5IAO",
+        "name": "estepark_co",
+        "start_date": "2023-08-07",
+        "end_date": "2023-12-31",
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -106.03365796503546,
+                        40.625706394061325
+                    ],
+                    [
+                        -105.2548755153235,
+                        40.625706394061325
+                    ],
+                    [
+                        -105.2548755153235,
+                        40.18727931714304
+                    ],
+                    [
+                        -106.03365796503546,
+                        40.18727931714304
+                    ],
+                    [
+                        -106.03365796503546,
+                        40.625706394061325
+                    ]
+                ]
+            ]
+        },
+        "area_km2": 3221.8458000094856,
+        "cloud_cover_percentage": 100,
+        "min_aoi_coverage_percentage": 70,
+        "interval": "5d",
+        "resolution_low": 30,
+        "resolution_high": 8.1,
+        "output": {
+            "id": "c31c1bea-a4be-11e7-8650-3ae5c7149ea7",
+            "format": "geotiff",
+            "mosaic": {
+                "type": "stitched",
+                "range": "1d"
+            }
+        },
+        "status": "complete",
+        "tags": [],
+        "result_delivery": {
+            "max_latency": "1d",
+            "priorities": [
+                "first_available"
+            ]
+        },
+        "created_at": "2023-08-28T01:52:28.411681Z",
+        "updated_at": "2023-08-28T01:52:28Z",
+        "max_cost": 0,
+        "status_reason": {
+            "reason": "some_results",
+            "description": "Pipeline completed processing with 17 intervals returning results, 13 intervals returning no results. 12 intervals with no results contain alternate search results, which can be ordered"
+        },
+        "user_information": {}
+    },
+    "9e42c958-4545-11ee-aa4e-023f4d8d791a": {
+        "id": "9e42c958-4545-11ee-aa4e-023f4d8d791a",
+        "org_id": "001Am000006ZGE5IAO",
+        "name": "ozark_ak",
+        "start_date": "2023-08-07",
+        "end_date": "2023-12-31",
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -93.6084328653273,
+                        35.96817525999812
+                    ],
+                    [
+                        -92.8627486953765,
+                        35.96817525999812
+                    ],
+                    [
+                        -92.8627486953765,
+                        35.515064368480296
+                    ],
+                    [
+                        -93.6084328653273,
+                        35.515064368480296
+                    ],
+                    [
+                        -93.6084328653273,
+                        35.96817525999812
+                    ]
+                ]
+            ]
+        },
+        "area_km2": 3398.4004497461265,
+        "cloud_cover_percentage": 100,
+        "min_aoi_coverage_percentage": 70,
+        "interval": "5d",
+        "resolution_low": 30,
+        "resolution_high": 8.1,
+        "output": {
+            "id": "c31c1bea-a4be-11e7-8650-3ae5c7149ea7",
+            "format": "geotiff",
+            "mosaic": {
+                "type": "stitched",
+                "range": "1d"
+            }
+        },
+        "status": "complete",
+        "tags": [],
+        "result_delivery": {
+            "max_latency": "1d",
+            "priorities": [
+                "first_available"
+            ]
+        },
+        "created_at": "2023-08-28T01:53:00.512575Z",
+        "updated_at": "2023-08-28T01:53:00Z",
+        "max_cost": 0,
+        "status_reason": {
+            "reason": "some_results",
+            "description": "Pipeline completed processing with 17 intervals returning results, 13 intervals returning no results. 12 intervals with no results contain alternate search results, which can be ordered"
+        },
+        "user_information": {}
+    },
+    "b74544ee-4545-11ee-aa4e-023f4d8d791a": {
+        "id": "b74544ee-4545-11ee-aa4e-023f4d8d791a",
+        "org_id": "001Am000006ZGE5IAO",
+        "name": "olympic_wa",
+        "start_date": "2023-08-07",
+        "end_date": "2023-12-31",
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -124.24433650208007,
+                        48.01700926853238
+                    ],
+                    [
+                        -122.91099012868466,
+                        48.01700926853238
+                    ],
+                    [
+                        -122.91099012868466,
+                        47.55372223724851
+                    ],
+                    [
+                        -124.24433650208007,
+                        47.55372223724851
+                    ],
+                    [
+                        -124.24433650208007,
+                        48.01700926853238
+                    ]
+                ]
+            ]
+        },
+        "area_km2": 5143.3411243551,
+        "cloud_cover_percentage": 100,
+        "min_aoi_coverage_percentage": 70,
+        "interval": "5d",
+        "resolution_low": 30,
+        "resolution_high": 8.1,
+        "output": {
+            "id": "c31c1bea-a4be-11e7-8650-3ae5c7149ea7",
+            "format": "geotiff",
+            "mosaic": {
+                "type": "stitched",
+                "range": "1d"
+            }
+        },
+        "status": "complete",
+        "tags": [],
+        "result_delivery": {
+            "max_latency": "1d",
+            "priorities": [
+                "first_available"
+            ]
+        },
+        "created_at": "2023-08-28T01:53:42.464228Z",
+        "updated_at": "2023-08-28T01:53:42Z",
+        "max_cost": 0,
+        "status_reason": {
+            "reason": "some_results",
+            "description": "Pipeline completed processing with 13 intervals returning results, 17 intervals returning no results. 17 intervals with no results contain alternate search results, which can be ordered"
+        },
+        "user_information": {}
+    },
+    "d3d5782c-4545-11ee-aa4e-023f4d8d791a": {
+        "id": "d3d5782c-4545-11ee-aa4e-023f4d8d791a",
+        "org_id": "001Am000006ZGE5IAO",
+        "name": "milliondollar_co",
+        "start_date": "2023-08-07",
+        "end_date": "2023-12-31",
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -108.09018782075023,
+                        38.083369910104636
+                    ],
+                    [
+                        -107.03565835371845,
+                        38.083369910104636
+                    ],
+                    [
+                        -107.03565835371845,
+                        37.41382889772383
+                    ],
+                    [
+                        -108.09018782075023,
+                        37.41382889772383
+                    ],
+                    [
+                        -108.09018782075023,
+                        38.083369910104636
+                    ]
+                ]
+            ]
+        },
+        "area_km2": 6918.1518057800195,
+        "cloud_cover_percentage": 100,
+        "min_aoi_coverage_percentage": 70,
+        "interval": "5d",
+        "resolution_low": 30,
+        "resolution_high": 8.1,
+        "output": {
+            "id": "c31c1bea-a4be-11e7-8650-3ae5c7149ea7",
+            "format": "geotiff",
+            "mosaic": {
+                "type": "stitched",
+                "range": "1d"
+            }
+        },
+        "status": "active",
+        "tags": [],
+        "result_delivery": {
+            "max_latency": "1d",
+            "priorities": [
+                "first_available"
+            ]
+        },
+        "created_at": "2023-08-28T01:54:30.396179Z",
+        "updated_at": "2023-08-28T01:54:30Z",
+        "max_cost": 0,
+        "status_reason": {
+            "reason": "failed",
+            "description": "1 intervals failed during processing. Contact support@skywatch.com for assistance"
+        },
+        "user_information": {}
+    },
+    "11761218-4546-11ee-aa4e-023f4d8d791a": {
+        "id": "11761218-4546-11ee-aa4e-023f4d8d791a",
+        "org_id": "001Am000006ZGE5IAO",
+        "name": "route100_vt",
+        "start_date": "2023-08-07",
+        "end_date": "2023-12-31",
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -73.10292024156438,
+                        44.327737335493225
+                    ],
+                    [
+                        -72.73895609785471,
+                        44.327737335493225
+                    ],
+                    [
+                        -72.73895609785471,
+                        43.675633170262444
+                    ],
+                    [
+                        -73.10292024156438,
+                        43.675633170262444
+                    ],
+                    [
+                        -73.10292024156438,
+                        44.327737335493225
+                    ]
+                ]
+            ]
+        },
+        "area_km2": 2115.6187488298315,
+        "cloud_cover_percentage": 100,
+        "min_aoi_coverage_percentage": 70,
+        "interval": "5d",
+        "resolution_low": 30,
+        "resolution_high": 8.1,
+        "output": {
+            "id": "c31c1bea-a4be-11e7-8650-3ae5c7149ea7",
+            "format": "geotiff",
+            "mosaic": {
+                "type": "stitched",
+                "range": "1d"
+            }
+        },
+        "status": "complete",
+        "tags": [],
+        "result_delivery": {
+            "max_latency": "1d",
+            "priorities": [
+                "first_available"
+            ]
+        },
+        "created_at": "2023-08-28T01:56:13.788077Z",
+        "updated_at": "2023-08-28T01:56:14Z",
+        "max_cost": 0,
+        "status_reason": {
+            "reason": "some_results",
+            "description": "Pipeline completed processing with 10 intervals returning results, 20 intervals returning no results. 20 intervals with no results contain alternate search results, which can be ordered"
+        },
+        "user_information": {}
+    },
+    "280b5c54-4546-11ee-aa4e-023f4d8d791a": {
+        "id": "280b5c54-4546-11ee-aa4e-023f4d8d791a",
+        "org_id": "001Am000006ZGE5IAO",
+        "name": "neuschwanstein_germany",
+        "start_date": "2023-08-07",
+        "end_date": "2023-12-31",
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        10.684543405071707,
+                        47.556296912326985
+                    ],
+                    [
+                        10.825905655122796,
+                        47.556296912326985
+                    ],
+                    [
+                        10.825905655122796,
+                        47.50303533594021
+                    ],
+                    [
+                        10.684543405071707,
+                        47.50303533594021
+                    ],
+                    [
+                        10.684543405071707,
+                        47.556296912326985
+                    ]
+                ]
+            ]
+        },
+        "area_km2": 62.99813501192766,
+        "cloud_cover_percentage": 100,
+        "min_aoi_coverage_percentage": 70,
+        "interval": "5d",
+        "resolution_low": 30,
+        "resolution_high": 8.1,
+        "output": {
+            "id": "c31c1bea-a4be-11e7-8650-3ae5c7149ea7",
+            "format": "geotiff",
+            "mosaic": {
+                "type": "stitched",
+                "range": "1d"
+            }
+        },
+        "status": "complete",
+        "tags": [],
+        "result_delivery": {
+            "max_latency": "1d",
+            "priorities": [
+                "first_available"
+            ]
+        },
+        "created_at": "2023-08-28T01:56:51.677559Z",
+        "updated_at": "2023-08-28T01:56:51Z",
+        "max_cost": 0,
+        "status_reason": {
+            "reason": "some_results",
+            "description": "Pipeline completed processing with 17 intervals returning results, 13 intervals returning no results. 11 intervals with no results contain alternate search results, which can be ordered"
+        },
+        "user_information": {}
+    },
+    "7fa44098-4546-11ee-aa4e-023f4d8d791a": {
+        "id": "7fa44098-4546-11ee-aa4e-023f4d8d791a",
+        "org_id": "001Am000006ZGE5IAO",
+        "name": "centralpark_ny",
+        "start_date": "2023-08-07",
+        "end_date": "2023-12-31",
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -73.98160193409268,
+                        40.76840370018388
+                    ],
+                    [
+                        -73.97278299498906,
+                        40.76450746177008
+                    ],
+                    [
+                        -73.9491841672037,
+                        40.79653641707489
+                    ],
+                    [
+                        -73.95841139052469,
+                        40.80043077712685
+                    ],
+                    [
+                        -73.98160193409268,
+                        40.76840370018388
+                    ]
+                ]
+            ]
+        },
+        "area_km2": 3.566741505833469,
+        "cloud_cover_percentage": 100,
+        "min_aoi_coverage_percentage": 70,
+        "interval": "5d",
+        "resolution_low": 30,
+        "resolution_high": 8.1,
+        "output": {
+            "id": "c31c1bea-a4be-11e7-8650-3ae5c7149ea7",
+            "format": "geotiff",
+            "mosaic": {
+                "type": "stitched",
+                "range": "1d"
+            }
+        },
+        "status": "complete",
+        "tags": [],
+        "result_delivery": {
+            "max_latency": "1d",
+            "priorities": [
+                "first_available"
+            ]
+        },
+        "created_at": "2023-08-28T01:59:18.638957Z",
+        "updated_at": "2023-08-28T01:59:18Z",
+        "max_cost": 0,
+        "status_reason": {
+            "reason": "some_results",
+            "description": "Pipeline completed processing with 22 intervals returning results, 8 intervals returning no results. 8 intervals with no results contain alternate search results, which can be ordered"
+        },
+        "user_information": {}
+    },
+    "9177134a-4546-11ee-aa4e-023f4d8d791a": {
+        "id": "9177134a-4546-11ee-aa4e-023f4d8d791a",
+        "org_id": "001Am000006ZGE5IAO",
+        "name": "niagara_ny",
+        "start_date": "2023-08-07",
+        "end_date": "2023-12-31",
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -79.07072306131725,
+                        43.07205840861249
+                    ],
+                    [
+                        -78.89091149128664,
+                        43.07205840861249
+                    ],
+                    [
+                        -78.89091149128664,
+                        43.018501003793915
+                    ],
+                    [
+                        -79.07072306131725,
+                        43.018501003793915
+                    ],
+                    [
+                        -79.07072306131725,
+                        43.07205840861249
+                    ]
+                ]
+            ]
+        },
+        "area_km2": 87.21410368504017,
+        "cloud_cover_percentage": 100,
+        "min_aoi_coverage_percentage": 70,
+        "interval": "5d",
+        "resolution_low": 30,
+        "resolution_high": 8.1,
+        "output": {
+            "id": "c31c1bea-a4be-11e7-8650-3ae5c7149ea7",
+            "format": "geotiff",
+            "mosaic": {
+                "type": "stitched",
+                "range": "1d"
+            }
+        },
+        "status": "complete",
+        "tags": [],
+        "result_delivery": {
+            "max_latency": "1d",
+            "priorities": [
+                "first_available"
+            ]
+        },
+        "created_at": "2023-08-28T01:59:48.542660Z",
+        "updated_at": "2023-08-28T01:59:48Z",
+        "max_cost": 0,
+        "status_reason": {
+            "reason": "some_results",
+            "description": "Pipeline completed processing with 13 intervals returning results, 17 intervals returning no results. 15 intervals with no results contain alternate search results, which can be ordered"
+        },
+        "user_information": {}
+    },
+    "aa3c9aa8-4546-11ee-aa4e-023f4d8d791a": {
+        "id": "aa3c9aa8-4546-11ee-aa4e-023f4d8d791a",
+        "org_id": "001Am000006ZGE5IAO",
+        "name": "santafe_nm",
+        "start_date": "2023-08-07",
+        "end_date": "2023-12-31",
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -105.85483742585323,
+                        35.975893409150515
+                    ],
+                    [
+                        -105.32613498990895,
+                        35.975893409150515
+                    ],
+                    [
+                        -105.32613498990895,
+                        35.5841115057428
+                    ],
+                    [
+                        -105.85483742585323,
+                        35.5841115057428
+                    ],
+                    [
+                        -105.85483742585323,
+                        35.975893409150515
+                    ]
+                ]
+            ]
+        },
+        "area_km2": 2082.3876017883977,
+        "cloud_cover_percentage": 100,
+        "min_aoi_coverage_percentage": 70,
+        "interval": "5d",
+        "resolution_low": 30,
+        "resolution_high": 8.1,
+        "output": {
+            "id": "c31c1bea-a4be-11e7-8650-3ae5c7149ea7",
+            "format": "geotiff",
+            "mosaic": {
+                "type": "stitched",
+                "range": "1d"
+            }
+        },
+        "status": "active",
+        "tags": [],
+        "result_delivery": {
+            "max_latency": "1d",
+            "priorities": [
+                "first_available"
+            ]
+        },
+        "created_at": "2023-08-28T02:00:30.101846Z",
+        "updated_at": "2023-08-28T02:00:30Z",
+        "max_cost": 0,
+        "status_reason": {
+            "reason": "failed",
+            "description": "1 intervals failed during processing. Contact support@skywatch.com for assistance"
+        },
+        "user_information": {}
+    },
+    "c9e902ec-4546-11ee-aa4e-023f4d8d791a": {
+        "id": "c9e902ec-4546-11ee-aa4e-023f4d8d791a",
+        "org_id": "001Am000006ZGE5IAO",
+        "name": "highlands_scotland",
+        "start_date": "2023-08-07",
+        "end_date": "2023-12-31",
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -4.943639788650302,
+                        58.47573248874443
+                    ],
+                    [
+                        -3.784303685388153,
+                        58.270454933313175
+                    ],
+                    [
+                        -4.858320681484372,
+                        57.14444278096397
+                    ],
+                    [
+                        -5.586042477903902,
+                        57.39409350410918
+                    ],
+                    [
+                        -4.943639788650302,
+                        58.47573248874443
+                    ]
+                ]
+            ]
+        },
+        "area_km2": 8163.853791566997,
+        "cloud_cover_percentage": 100,
+        "min_aoi_coverage_percentage": 70,
+        "interval": "5d",
+        "resolution_low": 30,
+        "resolution_high": 8.1,
+        "output": {
+            "id": "c31c1bea-a4be-11e7-8650-3ae5c7149ea7",
+            "format": "geotiff",
+            "mosaic": {
+                "type": "stitched",
+                "range": "1d"
+            }
+        },
+        "status": "complete",
+        "tags": [],
+        "result_delivery": {
+            "max_latency": "1d",
+            "priorities": [
+                "first_available"
+            ]
+        },
+        "created_at": "2023-08-28T02:01:23.240401Z",
+        "updated_at": "2023-08-28T02:01:23Z",
+        "max_cost": 0,
+        "status_reason": {
+            "reason": "some_results",
+            "description": "Pipeline completed processing with 8 intervals returning results, 22 intervals returning no results. 22 intervals with no results contain alternate search results, which can be ordered"
+        },
+        "user_information": {}
+    },
+    "da283650-4546-11ee-aa4e-023f4d8d791a": {
+        "id": "da283650-4546-11ee-aa4e-023f4d8d791a",
+        "org_id": "001Am000006ZGE5IAO",
+        "name": "quebec_canada",
+        "start_date": "2023-08-07",
+        "end_date": "2023-12-31",
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -71.70396379900433,
+                        46.758062393979145
+                    ],
+                    [
+                        -70.85451724066587,
+                        47.12186089137265
+                    ],
+                    [
+                        -71.15722910509227,
+                        47.321158483999426
+                    ],
+                    [
+                        -71.96343111137014,
+                        47.05456036315226
+                    ],
+                    [
+                        -71.70396379900433,
+                        46.758062393979145
+                    ]
+                ]
+            ]
+        },
+        "area_km2": 2481.4189850520943,
+        "cloud_cover_percentage": 100,
+        "min_aoi_coverage_percentage": 70,
+        "interval": "5d",
+        "resolution_low": 30,
+        "resolution_high": 8.1,
+        "output": {
+            "id": "c31c1bea-a4be-11e7-8650-3ae5c7149ea7",
+            "format": "geotiff",
+            "mosaic": {
+                "type": "stitched",
+                "range": "1d"
+            }
+        },
+        "status": "failed",
+        "tags": [],
+        "result_delivery": {
+            "max_latency": "1d",
+            "priorities": [
+                "first_available"
+            ]
+        },
+        "created_at": "2023-08-28T02:01:50.498941Z",
+        "updated_at": "2023-08-28T02:01:50Z",
+        "max_cost": 0,
+        "status_reason": {
+            "reason": "failed",
+            "description": "1 intervals failed during processing. Contact support@skywatch.com for assistance"
+        },
+        "user_information": {}
+    },
+    "ede6de62-4546-11ee-aa4e-023f4d8d791a": {
+        "id": "ede6de62-4546-11ee-aa4e-023f4d8d791a",
+        "org_id": "001Am000006ZGE5IAO",
+        "name": "lapland_finland",
+        "start_date": "2023-08-07",
+        "end_date": "2023-12-31",
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        23.744560122988673,
+                        68.13760103520701
+                    ],
+                    [
+                        26.485009275615454,
+                        68.13760103520701
+                    ],
+                    [
+                        26.485009275615454,
+                        67.38656863442407
+                    ],
+                    [
+                        23.744560122988673,
+                        67.38656863442407
+                    ],
+                    [
+                        23.744560122988673,
+                        68.13760103520701
+                    ]
+                ]
+            ]
+        },
+        "area_km2": 9652.32950414372,
+        "cloud_cover_percentage": 100,
+        "min_aoi_coverage_percentage": 70,
+        "interval": "5d",
+        "resolution_low": 30,
+        "resolution_high": 8.1,
+        "output": {
+            "id": "c31c1bea-a4be-11e7-8650-3ae5c7149ea7",
+            "format": "geotiff",
+            "mosaic": {
+                "type": "stitched",
+                "range": "1d"
+            }
+        },
+        "status": "complete",
+        "tags": [],
+        "result_delivery": {
+            "max_latency": "1d",
+            "priorities": [
+                "first_available"
+            ]
+        },
+        "created_at": "2023-08-28T02:02:23.628721Z",
+        "updated_at": "2023-08-28T02:02:23Z",
+        "max_cost": 0,
+        "status_reason": {
+            "reason": "some_results",
+            "description": "Pipeline completed processing with 6 intervals returning results, 24 intervals returning no results. 14 intervals with no results contain alternate search results, which can be ordered"
+        },
+        "user_information": {}
+    },
+    "06b20eb2-4547-11ee-aa4e-023f4d8d791a": {
+        "id": "06b20eb2-4547-11ee-aa4e-023f4d8d791a",
+        "org_id": "001Am000006ZGE5IAO",
+        "name": "banff_canada",
+        "start_date": "2023-08-07",
+        "end_date": "2023-12-31",
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -116.82462683250291,
+                        52.09344634849418
+                    ],
+                    [
+                        -115.17329872195005,
+                        52.09344634849418
+                    ],
+                    [
+                        -115.17329872195005,
+                        51.424540824679724
+                    ],
+                    [
+                        -116.82462683250291,
+                        51.424540824679724
+                    ],
+                    [
+                        -116.82462683250291,
+                        52.09344634849418
+                    ]
+                ]
+            ]
+        },
+        "area_km2": 8472.433800141494,
+        "cloud_cover_percentage": 100,
+        "min_aoi_coverage_percentage": 70,
+        "interval": "5d",
+        "resolution_low": 30,
+        "resolution_high": 8.1,
+        "output": {
+            "id": "c31c1bea-a4be-11e7-8650-3ae5c7149ea7",
+            "format": "geotiff",
+            "mosaic": {
+                "type": "stitched",
+                "range": "1d"
+            }
+        },
+        "status": "active",
+        "tags": [],
+        "result_delivery": {
+            "max_latency": "1d",
+            "priorities": [
+                "first_available"
+            ]
+        },
+        "created_at": "2023-08-28T02:03:05.222203Z",
+        "updated_at": "2023-08-28T02:03:05Z",
+        "max_cost": 0,
+        "status_reason": {
+            "reason": "failed",
+            "description": "Pipeline failed during processing. Contact support@skywatch.com for assistance"
+        },
+        "user_information": {}
+    },
+    "15a0463c-4547-11ee-aa4e-023f4d8d791a": {
+        "id": "15a0463c-4547-11ee-aa4e-023f4d8d791a",
+        "org_id": "001Am000006ZGE5IAO",
+        "name": "asheville_nc",
+        "start_date": "2023-08-07",
+        "end_date": "2023-12-31",
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -82.88184100597688,
+                        35.820354973232114
+                    ],
+                    [
+                        -82.22983266482163,
+                        35.820354973232114
+                    ],
+                    [
+                        -82.22983266482163,
+                        35.35278459231053
+                    ],
+                    [
+                        -82.88184100597688,
+                        35.35278459231053
+                    ],
+                    [
+                        -82.88184100597688,
+                        35.820354973232114
+                    ]
+                ]
+            ]
+        },
+        "area_km2": 3072.2644221583164,
+        "cloud_cover_percentage": 100,
+        "min_aoi_coverage_percentage": 70,
+        "interval": "5d",
+        "resolution_low": 30,
+        "resolution_high": 8.1,
+        "output": {
+            "id": "c31c1bea-a4be-11e7-8650-3ae5c7149ea7",
+            "format": "geotiff",
+            "mosaic": {
+                "type": "stitched",
+                "range": "1d"
+            }
+        },
+        "status": "complete",
+        "tags": [],
+        "result_delivery": {
+            "max_latency": "1d",
+            "priorities": [
+                "first_available"
+            ]
+        },
+        "created_at": "2023-08-28T02:03:30.272406Z",
+        "updated_at": "2023-08-28T02:03:30Z",
+        "max_cost": 0,
+        "status_reason": {
+            "reason": "some_results",
+            "description": "Pipeline completed processing with 15 intervals returning results, 15 intervals returning no results. 13 intervals with no results contain alternate search results, which can be ordered"
+        },
+        "user_information": {}
+    },
+    "2da28b28-4547-11ee-aa4e-023f4d8d791a": {
+        "id": "2da28b28-4547-11ee-aa4e-023f4d8d791a",
+        "org_id": "001Am000006ZGE5IAO",
+        "name": "superior_mi",
+        "start_date": "2023-08-07",
+        "end_date": "2023-12-31",
+        "aoi": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -90.70163449067219,
+                        46.95101695375715
+                    ],
+                    [
+                        -91.49069286472661,
+                        46.95101695375715
+                    ],
+                    [
+                        -91.49069286472661,
+                        46.68530546984445
+                    ],
+                    [
+                        -90.70163449067219,
+                        46.68530546984445
+                    ],
+                    [
+                        -90.70163449067219,
+                        46.95101695375715
+                    ]
+                ]
+            ]
+        },
+        "area_km2": 1777.9444615384537,
+        "cloud_cover_percentage": 100,
+        "min_aoi_coverage_percentage": 70,
+        "interval": "5d",
+        "resolution_low": 30,
+        "resolution_high": 8.1,
+        "output": {
+            "id": "c31c1bea-a4be-11e7-8650-3ae5c7149ea7",
+            "format": "geotiff",
+            "mosaic": {
+                "type": "stitched",
+                "range": "1d"
+            }
+        },
+        "status": "complete",
+        "tags": [],
+        "result_delivery": {
+            "max_latency": "1d",
+            "priorities": [
+                "first_available"
+            ]
+        },
+        "created_at": "2023-08-28T02:04:10.553806Z",
+        "updated_at": "2023-08-28T02:04:10Z",
+        "max_cost": 0,
+        "status_reason": {
+            "reason": "some_results",
+            "description": "Pipeline completed processing with 7 intervals returning results, 23 intervals returning no results. 23 intervals with no results contain alternate search results, which can be ordered"
+        },
+        "user_information": {}
+    }
+}
