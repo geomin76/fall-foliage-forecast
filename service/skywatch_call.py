@@ -40,5 +40,13 @@ def get_pipelines_data():
     results = response.json()['data']
     dictionary = {}
     for result in results:
-        dictionary[result['id']] = result['name']
+        dictionary[result["id"]] = result
     return dictionary
+
+def create_new_pipeline(data):
+    response = requests.post("https://api.skywatch.co/earthcache/pipelines", headers=headers, json=data)
+    return response.status_code
+
+def delete_pipelines_call(data):
+    response = requests.delete("https://api.skywatch.co/earthcache/pipelines", headers=headers, params=data)
+    return response
