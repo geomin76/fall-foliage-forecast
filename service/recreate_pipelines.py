@@ -1,14 +1,8 @@
 import json
 from service.skywatch_call import create_new_pipeline, delete_pipelines_call
-import logging
-
-logger = logging.getLogger()
-logging.basicConfig(level=logging.INFO)
-
-json_file = "./pipeline_data/2023_pipeline_data.json"
 
 # create pipelines based on old data and increment the year
-def create_pipeline():
+def create_pipeline(logger, json_file):
     dictionary = None
     with open(json_file) as f:
         dictionary = json.load(f)
@@ -44,11 +38,10 @@ def create_pipeline():
 
         logger.info("Created pipeline for {} with start_date {}".format(pipeline_data["name"], start_date))
 
-create_pipeline_status_code = create_pipeline()
-logger.info("Received a {} after create_pipeline call".format(str(create_pipeline_status_code)))
+
 
 # delete the pipelines
-def delete_pipelines():
+def delete_pipelines(logger, json_file):
     dictionary = None
     with open(json_file) as f:
         dictionary = json.load(f)
@@ -62,5 +55,3 @@ def delete_pipelines():
     
     delete_pipelines_call({"ids": ids})
     
-delete_pipeline_response = delete_pipelines()
-logger.info("Completed delete_pipeline call")

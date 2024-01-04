@@ -20,10 +20,10 @@ for pipeline_id in pipeline_ids:
         for result in results:
             url = result.visual_url
 
-            # # Get the photos
-            # file_name = url.split("/")[-1]
-            # data = requests.get(url).content 
-            # f = open("photos/" + file_name,'wb') 
-            # # Storing the image data inside the data variable to the file 
-            # f.write(data) 
-            # f.close() 
+            # Get the photos
+            file_name = url.split("/")[-1]
+            data = requests.get(url).content 
+            f = open("photos/" + file_name,'wb') 
+            # Storing the image data inside the data variable to the file 
+            f.write(data) 
+            f.close() 
