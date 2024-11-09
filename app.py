@@ -5,6 +5,7 @@ import requests
 from service.model import SkyWatchData, DataEntry
 import os
 from service.dynamodb import insert_data, get_data
+from service.s3_client import upload_blob
 
 logger = logging.getLogger()
 logging.basicConfig(level=logging.INFO)
@@ -34,16 +35,18 @@ for pipeline_id in pipeline_ids:
             with open('temp.png', 'wb') as handler:
                 handler.write(img_data)
 
+            file_path = "./temp.png"
             # run color_analysis on image
-            percentage = color_analysis("./temp.png")
+            percentage = color_analysis(file_path)
+            s3_url = upload_blob(file_path)
 
             # remove image, and if image doesn't exist, pass
-            try: os.remove("./temp.png")
+            try: os.remove(file_path)
             except OSError: pass
 
             # store data in dynamodb
             insert_data(DataEntry(
-                blob_url = result.visual_url, 
+                blob_url = s3_url, 
                 timestamp = result.capture_time,
                 color_percentage = percentage,
                 location_id = pipeline_id
